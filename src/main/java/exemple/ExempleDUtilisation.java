@@ -14,15 +14,15 @@ public class ExempleDUtilisation {
     
 public static void main(String[] args) {
 
-        Bandeau monBandeau = new Bandeau();
+        Bandeau bandeau_test = new Bandeau();
 
-        Scenario scenario1 = new Scenario(monBandeau);
+        Scenario scenar = new Scenario(bandeau_test);
 
-        scenario1.ajouterEffet(new Zoom(4, monBandeau, "Zoom In"));
-        scenario1.ajouterEffet(new Rotate(3, monBandeau, "Rotate "));
-        scenario1.ajouterEffet(new Clignotant(5, monBandeau, "Flash"));
+        scenar.ajouterEffet(new Zoom(4, bandeau_test, "Zoom In"));
+        scenar.ajouterEffet(new Rotate(3, bandeau_test, "Rotate "));
+        scenar.ajouterEffet(new Clignotant(5, bandeau_test, "Flash"));
 
-        scenario1.afficherScenario();
+        scenar.afficherScenario();
 
     }
 }  

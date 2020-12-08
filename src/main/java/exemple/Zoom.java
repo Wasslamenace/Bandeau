@@ -14,8 +14,8 @@ import java.awt.Font;
  */
 public class Zoom extends Effet {
 
-    public Zoom(int repetitions, Bandeau bandeau, String message) {
-        super(repetitions, bandeau, message);
+    public Zoom(int iteration, Bandeau bandeau, String msg) {
+        super(iteration, bandeau, msg);
 
     }
 
