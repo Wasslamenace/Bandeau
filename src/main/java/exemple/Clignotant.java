@@ -21,12 +21,16 @@ public class Clignotant extends Effet {
     public void afficher() {
         bandeau.setMessage(msg);
         for (int j = 0; j < this.iteration; j++) {
+            
             for (int i = 0; i < 60; i++) {
+                
                 if (i % 2 == 0) {
+                    
                     this.bandeau.setForeground(Color.blue);
                     this.bandeau.sleep(200);
                 }
                 if ((i % 2) != 0) {
+                    
                     this.bandeau.setForeground(Color.green);
                     this.bandeau.sleep(200);
 
